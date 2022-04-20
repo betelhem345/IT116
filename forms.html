@@ -7,22 +7,52 @@
     <title>Forms</title>
 </head>
 <body>
+    <section>
     <h1>First Form</h1>
+    <!-- h1 heading represents a section heading -->
        <Form Action="/Betelhem">
-
+           <!-- This is the label and textbox for the username. username has attributes and IDs -->
         <p>
             <label for="username">Enter A Name</label>
             <input id="username" type="text" placeholder="Betelhem" name="username">
 
-
         </p>
-
+<!-- This is the password label and textbox with attributes of a placeholder an ID and name -->
         <p>
             <label for="password">Enter A Password:</label>
             <input id="password" type="text" placeholder="betelhempassword" name="password">
 
 
         </p>
-    
+       
+        <button>Submit Button</button>
+
+        </Form>
+
+    </section>
+
+
+    <section>
+        <h1>Query Strings</h1>
+           <form action="https://www.reddit.com/r/OklahomaSooners/">
+
+                 <input type="text" name="q">
+                 <button>Search Reddit</button>
+
+           </form>
+
+           <form action="https://www.youtube.com/results?search_query=oklahoma+sonners/">
+                 
+                 <input type="text"> name="q" 
+                 <button>Youtube Search</button>
+
+          </form>   
+          
+          <form action="https://www.google.com/search/">
+
+                <input type="text"> name="q"
+                <button>Google Search</button>
+
+    </section>
 </body>
 </html>
