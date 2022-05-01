@@ -1,12 +1,26 @@
 h1 {
 
-color:blueviolet
+    /* A color element for h1 tag */
+color:green
 
 }
 
+h2{
+
+    /* A color element for h2 tag */
+    color:purple
+}
+
+p {
+
+    /* A color element for paragraph text and packground */
+    color:aqua;
+    background-color:black;
+
+}
 button {
 
-color:pink;
+color:white;
 background-color: darkblue
 
 }
