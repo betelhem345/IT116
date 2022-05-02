@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+   <!--  -->
+   <link rel="stylesheet" href="Messageboard.css">
+
+</head>
+<body>
+  
+
+            
+    <nav>
+    
+      <!--  -->
+      <label for="search">search</label>
+      <input type="text" placeholder="search" id="search">
+
+      <input type="text" placeholder="password">
+      <button>Log In</button>
+      
+      <button id="signup">signup</button>
+    </nav>
+
+
+    <!--  -->
+    <main> 
+        <h1>This is a message board</h1>
+            <section class="post">
+                <span>posted by <a href="12345"></a>/username<a></a></span>
+                <h2>oklahama is a 9-3 team once they move to the SEC!</h2>
+                <button>+Vote</button>
+                <hr>
+            </section>
+          
+          
+            <section>
+                <span>posted by <a href="23455"></a>/Texas fan<a></a></span>
+                <h2>Texas is going to struggle also in the SEC!</h2>
+                <button>+Vote</button>
+
+
+            </section>
+
+            <section>
+                <span>posted by <a href="23453"></a>/fan<a></a></span>
+                <h2>both move to SEC!</h2>
+                <button>+Vote</button>
+
+
+            </section>
+    </main>
+
+
+    <footer>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+                <li>
+                    <a href="https://www.google.com">Google</a>
+                </li>
+            </ul>
+        </nav>
+
+        
+    </footer>
+
+</body>
+
+</html>

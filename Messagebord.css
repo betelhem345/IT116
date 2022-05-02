@@ -1,0 +1,41 @@
+/*  */
+/* *{
+
+    color:pink;
+    background-color:silver;
+
+} */
+/*  */
+body {
+
+    background-color: yellow;
+
+}
+
+/*  */
+button {
+
+    font-size: 30px;
+}
+/*  */
+h1,h2 {
+
+    color:purple;
+}
+ /*  */
+ #signup {
+
+    background-color:pink;
+    color:blue;
+ }
+/*  */
+.tag{
+
+    color:aquamarine;
+}
+
+/*  */
+fotter > a {
+
+    color:orange;
+}
