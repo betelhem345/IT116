@@ -1,0 +1,36 @@
+/*An ID selector is a way to identisy HTML element where a particular style will be applied and we use hash (#) for an id selector.
+we use a class selector when we apply the same style  to multiple HTML elements on the same web page.
+we use a dot (.) for a class selector.*/
+  
+.crimson{
+    color:crimson ;
+    }
+   
+    .green{
+    color:darkgreen;
+    }
+    
+    .yellow{
+    color:rgba(153, 205, 50, 0.685)
+    }
+    
+    .burntorange{
+    color:rgba(255, 166, 0, 0.879)
+    
+    }
+   
+    .red{
+    color:red;
+    
+    }
+   
+    #yes{
+    background-color:green;
+    color:white;
+    }
+   
+    #no{
+    background-color:red;
+    color:white;
+    
+    }
