@@ -1,0 +1,16 @@
+/*
+ Descendant selectors are used to apply styles to the nested elements the two paragraphs have the same id selector #id schools 
+ and the anchor tag will have my choice of color skyblue. 
+ */
+
+#schools> a{
+color:skyblue;
+}
+
+/* 
+A descendant selector for sub elements in the anchor tag to 30px font and my favorite color pink.
+ */
+
+header>a {
+font-size: 30px;
+color:pink;
