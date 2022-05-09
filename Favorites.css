@@ -8,9 +8,9 @@ color:skyblue;
 }
 
 /* 
-A descendant selector for sub elements in the anchor tag to 30px font and my favorite color pink.
+A descendant selector for sub elements in the anchor tag to 30px font and my favorite color Red.
  */
 
 header>a {
 font-size: 30px;
-color:pink;
+color:red;
