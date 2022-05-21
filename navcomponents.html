@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Css Bootstrap</title>
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
@@ -18,42 +18,45 @@
     <div class="container fluid">
         
         <a class="navbar-brand" href="https://www.nytimes.com">
-           <img src="https://th.bing.com/th/id/R.8edccb57c9db4e268f5646e89ca80f24?rik=6LFKYZYbZDxFvA&pid=ImgRaw&r=0"
-           alt="" width="30" height="24" class="d-inline-block align-text-top">
-           Activities
+           <img src="https://i.pinimg.com/originals/e7/9f/b2/e79fb226345231a0345aaa0e2d7fc5c1.png"
+           alt=""width="30" height="24" class="d-inline-block align-text-top">
+           Places to Visit
         </a>
-<!--  -->
-<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1">
-    <span class="navbar-toggler-icon"></span>
-    </button>
+<!-- Bootstrap Navbar that you can collapse,  a button which upon being pressed or clicked, presents to you the rest
+     of the options that you have in the code. The button when you click on it, you see the rest of the items that are 
+     supposed to be in the Navbar. It is also called the hamburger button  -->
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1">
+         <span class="navbar-toggler-icon"></span>
+     </button>
 
-    <div class="collaspe navbar-collaspe" id="navbar1">
+    <div class="collapse navbar-collapse" id="navbar1"> 
+    <!-- Bootstrap class 5 a navigation bar can extend or collapse, depending on the screen sizeme-auto means "margin end auto". -->
+            <ul class="navbar-nav d-flex me-auto">
+    <!--Bootstrap 4 nav item active means the tabes are togglable and active-->
+               <li class="nav-item active">
+                   <a class="nav-link" href="http://ethiopiavoyage.com/gondar_castle.html">Gonder</a>
+               </li>
 
-        <ul class="navbar-nav">
-
-            <li class="nav-item active">
-            <a class="nav-link" href="https://www.sonnersports.com">Sports</a>
-            </li>
-
-            <li class="nav-item active">
-                <a class="nav-link" href="https://www.netflix.com">Netflix</a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://simienpark.org/">Simien</a>
                 </li>
 
                 <li class="nav-item active">
-                    <a class="nav-link" href="https://www.spotify.com">Music</a>
-                    </li>
+                    <a class="nav-link" href="https://en.wikipedia.org/wiki/Tiya_(archaeological_site)">Tiya</a>
+                </li>
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown>toggle" href="" role="button" data-bs-toggle="dropdown">more</a>
-                    <!--  -->
+    <!-- A dropdown menu is a toggleable menu that allows the user to choose one value from a predefined list  -->
                     <ul class="dropdown-menu">
-                        <a href="https://www.tiktok.com" class="dropdown-item">Tiktok</a>
+                        <a href="https://www.haileresorts.com/adama-resort/" class="dropdown-item">Haile</a>
                         
-                        <a href="https://www.instagram.com" class="dropdown-item">Instagram</a>
+                        <a href="https://www.kurifturesorts.com/" class="dropdown-item">Kuriftu</a>
                         
-                        <a href="https://www.snapchat.com" class="dropdown-item">Snapchat</a>
+                        <a href="https://www.tripadvisor.com/Attraction_Review-g293791-d480664-Reviews-National_Museum_of_Ethiopia-Addis_Ababa.html" class="dropdown-item">Museum</a>
                         
-                        <a href="https://www.youtube.com" class="dropdown-item">Youtube</a>
+                        <a href="https://www.kuriftuwaterpark.com/" class="dropdown-item">WaterPark</a>
+
 
                     </ul>
 
@@ -61,7 +64,7 @@
                 </li>
 
 
-        </ul>
+             </ul>
 
         <form class="d-flex" action="/testing">
 
@@ -77,18 +80,22 @@
 
     <br>
     <br>
-    <!--  -->
+    <!--A section element a [arent for a div class with container card, h1 header, button type, h2 header, h3 header, 
+        and img src, blockqoute, footer class.  -->
     <section>
-        <!--  -->
+    <!-- Bootstrap v4, container card define a way of displaying content.containers are like content alignment 
+         and cards are like content structure and design.  -->
         <div class="container card">
             <h1>Bootstrap Components Without Class</h1>
-        <!--  -->
+    <!--Bootstrap text-center helps the parent div to align text or any item inside to the center.In this case
+        the text success  -->
             <h1 class="display-1 text-center text-sucess">Components With Class</h1>
 
             <button type="button" class="btn btn-success">Green</button>
             <button type="button" class="btn btn-warning">Yellow</button>
             <button type="button" class="btn btn-danger">Red</button>
-            <!--  -->
+    <!--bootsrtap class btn	Adds basic styling to any button and btn-outline-info gives contextual button for 
+        informational alert messages   -->
             <button type="button" class="btn btn-outline-info">Info</button>
 
     <br>
@@ -115,7 +122,10 @@
 
              <blockquote class="blackquote text-left bg-light">
                  <p class="et-2">
-                     "Ethiopia Is An Ancient Country"
+                     "Ethiopia Is An Ancient Country on the Horn of Africa. The country lies completely within the 
+                     tropical latitudes and is relatively compact, with similar north-south and east-west dimensions. 
+                     The capital is Addis Ababa (“New Flower”), located almost at the centre of the country. Ethiopia
+                    is the largest and most populated country in the Horn of Africa. "
                     
                  </p>
 
